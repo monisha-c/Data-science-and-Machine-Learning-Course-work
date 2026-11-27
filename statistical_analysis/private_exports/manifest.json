@@ -1,0 +1,126 @@
+{
+  "target": "readmitted_30",
+  "clinical_numeric": [
+    "number_diagnoses",
+    "number_inpatient",
+    "number_emergency",
+    "number_outpatient"
+  ],
+  "clinical_categorical": [
+    "age",
+    "gender",
+    "race",
+    "admission_type_id",
+    "admission_source_id",
+    "diag_1_group",
+    "diag_2_group",
+    "diag_3_group"
+  ],
+  "care": [
+    "time_in_hospital",
+    "num_lab_procedures",
+    "num_procedures",
+    "num_medications"
+  ],
+  "discordance": [
+    "discordance_time_in_hospital",
+    "discordance_num_lab_procedures",
+    "discordance_num_procedures",
+    "discordance_num_medications"
+  ],
+  "models": [
+    {
+      "model": "Linear SVM",
+      "feature_set": "A",
+      "score": "model_01_score",
+      "prediction": "model_01_pred",
+      "threshold": 0.04986565594550829
+    },
+    {
+      "model": "Linear SVM",
+      "feature_set": "B",
+      "score": "model_02_score",
+      "prediction": "model_02_pred",
+      "threshold": -0.0005978248787550378
+    },
+    {
+      "model": "Linear SVM",
+      "feature_set": "C",
+      "score": "model_03_score",
+      "prediction": "model_03_pred",
+      "threshold": 0.024224967232166716
+    },
+    {
+      "model": "Logistic Regression",
+      "feature_set": "A",
+      "score": "model_04_score",
+      "prediction": "model_04_pred",
+      "threshold": 0.5280114802211463
+    },
+    {
+      "model": "Logistic Regression",
+      "feature_set": "B",
+      "score": "model_05_score",
+      "prediction": "model_05_pred",
+      "threshold": 0.5503265308726253
+    },
+    {
+      "model": "Logistic Regression",
+      "feature_set": "C",
+      "score": "model_06_score",
+      "prediction": "model_06_pred",
+      "threshold": 0.5094548668798248
+    },
+    {
+      "model": "Random Forest",
+      "feature_set": "A",
+      "score": "model_07_score",
+      "prediction": "model_07_pred",
+      "threshold": 0.5206339168263386
+    },
+    {
+      "model": "Random Forest",
+      "feature_set": "B",
+      "score": "model_08_score",
+      "prediction": "model_08_pred",
+      "threshold": 0.5117009345492628
+    },
+    {
+      "model": "Random Forest",
+      "feature_set": "C",
+      "score": "model_09_score",
+      "prediction": "model_09_pred",
+      "threshold": 0.4269639046633392
+    },
+    {
+      "model": "XGBoost",
+      "feature_set": "A",
+      "score": "model_10_score",
+      "prediction": "model_10_pred",
+      "threshold": 0.5438476800918579
+    },
+    {
+      "model": "XGBoost",
+      "feature_set": "B",
+      "score": "model_11_score",
+      "prediction": "model_11_pred",
+      "threshold": 0.5227693915367126
+    },
+    {
+      "model": "XGBoost",
+      "feature_set": "C",
+      "score": "model_12_score",
+      "prediction": "model_12_pred",
+      "threshold": 0.5361844301223755
+    }
+  ],
+  "primary_family": "XGBoost",
+  "contract_hash": "a7ca684cbd39daa3c852e39b638afa1d5881d594bf11f493aa8bdeaf8f5b519d",
+  "model_hash": "d594fd95abb937e6631017878ed6207335102b735c420f2704b19bbd2c0f423c",
+  "discordance_hash": "03c85ac467e123e96b060f4a1a18f17485a9066df32044e6877ae2185eb3904c",
+  "rows": {
+    "train": 59604,
+    "validation": 19871,
+    "test": 19868
+  }
+}
