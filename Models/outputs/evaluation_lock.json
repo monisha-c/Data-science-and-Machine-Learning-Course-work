@@ -1,0 +1,10 @@
+{
+  "contract_hash": "a7ca684cbd39daa3c852e39b638afa1d5881d594bf11f493aa8bdeaf8f5b519d",
+  "model_hash": "d594fd95abb937e6631017878ed6207335102b735c420f2704b19bbd2c0f423c",
+  "discordance_hash": "03c85ac467e123e96b060f4a1a18f17485a9066df32044e6877ae2185eb3904c",
+  "primary_family": "XGBoost",
+  "champion": [
+    "XGBoost",
+    "C"
+  ]
+}
