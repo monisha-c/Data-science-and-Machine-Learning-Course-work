@@ -1,0 +1,324 @@
+{
+  "timestamp_utc": "2026-11-27T16:18:37.168842+00:00",
+  "passed": true,
+  "checks": [
+    {
+      "check": "Raw source checksum",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "Mapping checksum",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "Checksum: train.csv",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "Checksum: validation.csv",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "Checksum: test.csv",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "Checksum: split_assignments.csv",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "Checksum: cohort_flow.csv",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "Checksum: training_missingness.csv",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "train: exact schema",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "train: correct split",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "train: valid IDs",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "train: binary target with both classes",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "train: care counts valid",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "train: number_diagnoses valid or missing",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "train: number_inpatient valid or missing",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "train: number_emergency valid or missing",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "train: number_outpatient valid or missing",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "train: eligible discharge disposition",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "validation: exact schema",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "validation: correct split",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "validation: valid IDs",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "validation: binary target with both classes",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "validation: care counts valid",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "validation: number_diagnoses valid or missing",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "validation: number_inpatient valid or missing",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "validation: number_emergency valid or missing",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "validation: number_outpatient valid or missing",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "validation: eligible discharge disposition",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "test: exact schema",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "test: correct split",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "test: valid IDs",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "test: binary target with both classes",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "test: care counts valid",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "test: number_diagnoses valid or missing",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "test: number_inpatient valid or missing",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "test: number_emergency valid or missing",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "test: number_outpatient valid or missing",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "test: eligible discharge disposition",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "train/validation: no overlap in encounter_id",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "train/validation: no overlap in patient_nbr",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "train/test: no overlap in encounter_id",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "train/test: no overlap in patient_nbr",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "validation/test: no overlap in encounter_id",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "validation/test: no overlap in patient_nbr",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "Unique encounters across cohort",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "Expected cohort size",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "Split assignment file matches partitions",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "Set A exact whitelist",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "Set B exact whitelist",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "Set C planned whitelist",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "Numeric/categorical contract",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "No fitted discordance features in prepared data",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "Raw row count",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "Eligible encounter set equals raw-derived cohort",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "Patient IDs preserved",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "Binary target matches raw label",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "Observed care preserved: time_in_hospital",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "Observed care preserved: num_lab_procedures",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "Observed care preserved: num_procedures",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "Observed care preserved: num_medications",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "Lab test category preserved: A1Cresult",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "Lab test category preserved: max_glu_serum",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "Cohort flow reconciles",
+      "status": "PASS",
+      "detail": ""
+    }
+  ],
+  "mapping_verified": true,
+  "warnings": [],
+  "scope": "Data/split integrity only; no model validation performed."
+}

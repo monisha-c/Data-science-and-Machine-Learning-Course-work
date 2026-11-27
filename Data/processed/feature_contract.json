@@ -1,0 +1,139 @@
+{
+  "target": "readmitted_30",
+  "group": "patient_nbr",
+  "id": "encounter_id",
+  "partition": "split",
+  "clinical_features": [
+    "age",
+    "gender",
+    "race",
+    "admission_type_id",
+    "admission_source_id",
+    "diag_1_group",
+    "diag_2_group",
+    "diag_3_group",
+    "number_diagnoses",
+    "number_inpatient",
+    "number_emergency",
+    "number_outpatient"
+  ],
+  "clinical_numeric": [
+    "number_diagnoses",
+    "number_inpatient",
+    "number_emergency",
+    "number_outpatient"
+  ],
+  "clinical_categorical": [
+    "age",
+    "gender",
+    "race",
+    "admission_type_id",
+    "admission_source_id",
+    "diag_1_group",
+    "diag_2_group",
+    "diag_3_group"
+  ],
+  "observed_care_features": [
+    "time_in_hospital",
+    "num_lab_procedures",
+    "num_procedures",
+    "num_medications"
+  ],
+  "audit_only": [
+    "discharge_disposition_id",
+    "A1Cresult",
+    "max_glu_serum",
+    "change",
+    "diabetesMed"
+  ],
+  "feature_set_A": [
+    "age",
+    "gender",
+    "race",
+    "admission_type_id",
+    "admission_source_id",
+    "diag_1_group",
+    "diag_2_group",
+    "diag_3_group",
+    "number_diagnoses",
+    "number_inpatient",
+    "number_emergency",
+    "number_outpatient"
+  ],
+  "feature_set_B": [
+    "age",
+    "gender",
+    "race",
+    "admission_type_id",
+    "admission_source_id",
+    "diag_1_group",
+    "diag_2_group",
+    "diag_3_group",
+    "number_diagnoses",
+    "number_inpatient",
+    "number_emergency",
+    "number_outpatient",
+    "time_in_hospital",
+    "num_lab_procedures",
+    "num_procedures",
+    "num_medications"
+  ],
+  "planned_discordance_features": [
+    "discordance_time_in_hospital",
+    "discordance_num_lab_procedures",
+    "discordance_num_procedures",
+    "discordance_num_medications"
+  ],
+  "feature_set_C_planned": [
+    "age",
+    "gender",
+    "race",
+    "admission_type_id",
+    "admission_source_id",
+    "diag_1_group",
+    "diag_2_group",
+    "diag_3_group",
+    "number_diagnoses",
+    "number_inpatient",
+    "number_emergency",
+    "number_outpatient",
+    "time_in_hospital",
+    "num_lab_procedures",
+    "num_procedures",
+    "num_medications",
+    "discordance_time_in_hospital",
+    "discordance_num_lab_procedures",
+    "discordance_num_procedures",
+    "discordance_num_medications"
+  ],
+  "prediction_time": "discharge",
+  "seed": 42,
+  "excluded_dispositions": [
+    11,
+    13,
+    14,
+    19,
+    20,
+    21
+  ],
+  "mapping_verified": true,
+  "cohort_rule": "Exclude missing disposition, death/hospice, missing observed care and stay outside 1\u201314 days. Retain repeat encounters.",
+  "source_sha256": "0689e7ec031237dc63031b938805c48377748761a3b26acab621567afa24df97",
+  "mapping_sha256": "f1bb82b471cb34649352597572c9b1fb00bd27f77b9f5a22a03dc3eb1039749e",
+  "raw_rows": 101766,
+  "eligible_rows": 99343,
+  "versions": {
+    "python": "3.12.12",
+    "pandas": "3.1.1",
+    "numpy": "2.5.5",
+    "sklearn": "1.9.1"
+  },
+  "output_sha256": {
+    "train.csv": "f9ca209d530b1d9f8693f3796ef75cdbe350e3077f13801b6744e8f4a7f9aba2",
+    "validation.csv": "24cc6f824c0ee61a5475f829a72e2e34e8cff9a33eb0f0542cf21583551ce8a1",
+    "test.csv": "45b31ade9b2533cbb44407abfc068a58619bc2e4abcbd24029b09466f47dcb26",
+    "split_assignments.csv": "09155f9f9f1e10a007cabe3327f8af13156152c07fb8d4cc5236c8e922e12b24",
+    "cohort_flow.csv": "fa7fde1a56c20e299177886e694eeed7f0b6902c89bfd2a59bcbacf5f1ea7a3c",
+    "training_missingness.csv": "583899d2597a9b2a4fcd11c1c89e6ae90097ac3f7fef7975f34b56b2129e2d0f"
+  }
+}

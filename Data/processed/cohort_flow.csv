@@ -1,0 +1,6 @@
+stage,removed,remaining
+raw,0,101766
+exact duplicate rows,0,101766
+missing discharge disposition,0,101766
+death or hospice disposition,2423,99343
+missing care dimensions or stay outside documented 1–14 days,0,99343
