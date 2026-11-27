@@ -72,3 +72,14 @@ The Python executable must point to the parent `.venv`, not a global Python inst
 If imports fail, check `sys.executable` and install missing dependencies from the parent environment using the parent `requirements.txt`. If data files cannot be found, inspect `Path.cwd()` and the input paths. Do not create another environment in this folder or depend on variables created in another notebook session.
 
 Return to the [parent README](../README.md) for full setup instructions.
+
+### macOS-specific dependency
+
+XGBoost requires the OpenMP runtime library.
+
+Before running the modelling notebooks, install it using:
+
+    brew install libomp
+
+Then activate the project virtual environment
+and install the Python dependencies from requirements.txt.
